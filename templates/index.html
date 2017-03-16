@@ -1,1 +1,55 @@
+<!doctype html>
 
+<title>#shefcodefirst</title> 
+<meta charset=utf-8> 
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="https://use.fontawesome.com/e5bf3cfa9c.js"></script>
+<body>
+
+<center>
+<img src="http://i68.tinypic.com/148gqir.png" width="60%" >
+</center>
+
+<base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/">
+<div id="slider">
+<figure>
+<img src="http://i66.tinypic.com/24ng11f.jpg" alt>
+<img src="http://i66.tinypic.com/6zsydz.jpg" alt>
+<img src="http://i67.tinypic.com/2vs3rzl.jpg" alt>
+<img src="http://i65.tinypic.com/65bati.jpg" alt>
+</figure>
+</div>
+
+<div class="textbox" >
+A collection of tweets related to the Sheffield Unviersity Code First Girls Community Courses, showcasing passion of getting more females into technology and debugging the gender gap! <br><br>
+8-weeks of awesome coding adventures - thank you to all our instructors for all the help:
+Tejay White, Dave Chaston, Chris Bingham, Tania Allard, Darren Vong.
+<br>
+<br>
+And all the girls who have gotten invovled! 
+</div>
+
+<h2> #shefcodefirst memories:</h2>
+
+
+<div class="container" width="30%">
+{% for tweet in tweets %}
+<p> {{ tweet.user.name + ": " + tweet.text }} </p>
+{% endfor %}
+</div>
+
+
+<footer>
+Made by CF:G Ambassadors Sophia Kessler & Pauline P. Narvas <br><small><em>(team pythonistas)</em></small><br>
+<a href="https://twitter.com/search?q=%23shefcodefirst&src=savshttps://www.facebook.com/search/top/?q=%23shefcodefirst"><i class="fa fa-twitter" aria-hidden="true"></i></a> <a href="https://www.instagram.com/explore/tags/shefcodefirst/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+<a href="https://www.linkedin.com/search/results/content/?keywords=%23shefcodefirst&origin=SWITCH_SEARCH_VERTICAL" >
+<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+<a href="https://www.facebook.com/search/top/?q=%23shefcodefirst"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+
+<br>
+
+</footer>
+
+</body>
+</html>
