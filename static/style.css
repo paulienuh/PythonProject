@@ -74,13 +74,9 @@ border-radius: 25px;
 }
 
 
-footer p {
-	font-size: 16pt;
-}
-
 footer {
 	text-align: center;
-
+font-size: 14pt;
  position: absolute;
     left: 0;
         padding-top: 10px;
