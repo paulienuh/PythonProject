@@ -23,26 +23,50 @@ h2 {
 .container {
  width: 65%;
  margin: 0 auto;
- padding-bottom: 60px;
+
+}
+.other-container {
+	 padding-bottom: 130px;
+	 padding-top: 20px;
 }
 
 .textbox {
 	background: #c55254;
-	width: 60%;
-	margin: 0 auto;
-	padding: 20px;
-	border-radius: 10px;
+	width: auto;
+	padding: 90px;
 	color: white;
+	font-size: 14pt;
+	text-align: center;
 }
+
+.text {
+	text-align: center;
+	padding: 30px;
+	font-size: 14pt;
+	color: #c55254;
+	background: white;
+	width:auto;
+}
+.imgbox {
+	margin: 0 auto;
+padding-top: 20px;
+}
+.img {
+	width: auto;
+	height: 200px;
+	-webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
 p {
 	color: #c55254;
-		font-size: 13pt;
+		font-size: 14pt;
 	text-align: left;
 	border-top: 1px solid #ebc9c9;
 	padding: 10px;
 }
 footer p {
-	font-size: 12pt;
+	font-size: 13pt;
 }
 
 footer {
@@ -60,13 +84,18 @@ footer {
     	background: #c55254;
 color: white;
 
+
 }
+
 a {
 	color: white;
+	text-decoration: none;
+
 }
 a:hover {
 	color: pink;
 }
+
 
 @keyframes slidy {
 0% { left: 0%; }
@@ -81,7 +110,7 @@ a:hover {
 }
 
 body { margin: 0; } 
-div#slider { overflow: hidden; padding-bottom: 20px; }
+div#slider { overflow: hidden;  }
 
 div#slider figure img { width: 20%; float: left;}
 div#slider figure { 
