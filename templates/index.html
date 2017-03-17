@@ -34,8 +34,9 @@ Throughout the Code First Community course here at the University of Sheffield, 
 
 <div class="container" width="30%">
 {% for tweet in tweets %}
-<p> {{ tweet.user.name + ": " + tweet.text }} </p>
-	  {{ tweet['time'] }}
+
+<p> {{ tweet.text }} </p>
+	{{ tweet.user.name }}  {{ tweet['time'] }}
 {% endfor %}
 </div>
 <br>
