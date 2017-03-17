@@ -1,6 +1,5 @@
-import os
 import tweepy
-
+import os
 
 auth = tweepy.OAuthHandler('J3reOjPoernyyX0BbebUhIUxE', 'LkpRlOobwykFthDhgif1kSAoPA39FVDqpyyBYCTg2mk7YJ0T9e')
 auth.set_access_token('230185453-gaHgYdEK1DCeHkx2Ble0QrdCiWxCOxgrQfXvyLWN', 'YG7RCMeuuA9smUzvYfjKFJHcLqpZqpPSMZwC8BKKFs6zP')
