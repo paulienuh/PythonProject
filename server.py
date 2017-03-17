@@ -20,7 +20,7 @@ def index():
   return render_template('index.html', tweets=public_tweets)
 
 
-
-if __name__ == '__main__':
+if 'PORT' in os.environ:
+     app.run(host='0.0.0.0', port=int(os.environ['PORT']))
+else:
      app.run(debug=True)
-
