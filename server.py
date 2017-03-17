@@ -1,3 +1,4 @@
+import os
 import tweepy
 
 
@@ -22,5 +23,8 @@ def index():
 
 
 if __name__ == '__main__':
-  app.run(debug=True)
+  if 'PORT' in os.environ:
+     app.run(host='0.0.0.0', port=int(os.environ['PORT']))
+else:
+     app.run(debug=True)
 
