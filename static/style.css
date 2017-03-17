@@ -76,16 +76,16 @@ border-radius: 25px;
 
 footer {
 	text-align: center;
-font-size: 11pt;
+font-size: 13pt;
  position: absolute;
     left: 0;
-        padding-top: 30px;
+        padding-top: 20px;
     bottom: 0;
     height: 20px;
     width: 100%;
     margin: 0 auto;
     overflow:hidden;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
     	background: #c55254;
 color: white;
 
