@@ -37,7 +37,7 @@ h3 {
 .textbox {
 	background: #c55254;
 	width: auto;
-	padding-top: 90px;
+	padding-top: 90px;	padding-bottom: 90px;
 	color: white;
 	font-size: 14pt;
 	text-align: center;
