@@ -39,11 +39,11 @@ Throughout the Code First Community course here at the University of Sheffield, 
 <div class="container" >
 <div class="row" >
 {% for tweet in tweets %}
-<div class="col-lg-2 col-sm-2" >
+<div class="col-lg-3 col-sm-3" >
 
 <img src=" {{ tweet.user.profile_image_url }} " class="img-rounded"> <br> <h3>{{ tweet.user.screen_name }}</h3> <br>
 </div>
-<div class="col-lg-9 col-sm-10" >
+<div class="col-lg-8 col-sm-9" >
 <p>{{ tweet.text }}</p>
 </div>
 {% endfor %}
