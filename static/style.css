@@ -18,6 +18,11 @@ h1 {
 		font-family: 'Noto Serif', serif;
 }
 
+h3 {
+	font-family: 'Noto Serif', serif;
+	font-size: 14pt;
+}
+
 .container {
  width: 65%;
  margin: 0 auto;
