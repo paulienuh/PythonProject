@@ -68,6 +68,12 @@ padding-top: 20px;
     filter: grayscale(0%);
 }
 
+.twi-button {
+	padding: 20px;
+	border: 1px grey solid;
+	color: black;
+}
+
 p {
 	background-color: #c55254;
 padding: 50px;
