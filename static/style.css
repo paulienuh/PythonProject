@@ -60,6 +60,7 @@ padding-top: 20px;
 	height: 200px;
 	-webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
+    object-fit: cover;
 }
 .img:hover {
 	-webkit-filter: grayscale(0%); 
