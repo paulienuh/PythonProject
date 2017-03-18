@@ -118,6 +118,7 @@ a {
 }
 a:hover {
 	color: pink;
+	text-decoration: none;
 }
 
 
