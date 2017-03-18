@@ -48,6 +48,9 @@ h3 {
 	color: white;
 	font-size: 16pt;
 	text-align: center;
+	-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
 }
 
 .text {
@@ -57,6 +60,9 @@ h3 {
 	color: #c55254;
 	background: white;
 	width:auto;
+	-webkit-transition: all 0.2s ease;
+-moz-transition: all 0.2s ease;
+transition: all 0.2s ease;
 }
 .imgbox {
 	margin: 0 auto;
