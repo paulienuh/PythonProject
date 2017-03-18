@@ -71,11 +71,14 @@ padding-top: 20px;
 .twi-button {
 	padding: 20px;
 	border: 1px grey solid;
-	color: black;
+	color: #c55254;
 	font-size: 16pt;
 	margin: 0 auto;
 }
-
+.twi-button:hover {
+	background: #c55254;
+	color: white;
+}
 p {
 	background-color: #c55254;
 padding: 50px;
