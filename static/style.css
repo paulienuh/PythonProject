@@ -37,7 +37,7 @@ h3 {
 }
 
 .other-container {
-	 padding-bottom: 130px;
+	 padding-bottom: 20px;
 	 padding-top: 20px;
 }
 
@@ -97,24 +97,6 @@ border-radius: 25px;
 	margin-bottom: 70px;
 }
 
-
-footer {
-	text-align: center;
-font-size: 13pt;
- position: absolute;
-    left: 0;
-        padding-top: 20px;
-    bottom: 0;
-    height: 20px;
-    width: 100%;
-    margin: 0 auto;
-    overflow:hidden;
-    padding-bottom: 70px;
-    	background: #c55254;
-color: white;
-
-
-}
 
 a {
 	color: white;
