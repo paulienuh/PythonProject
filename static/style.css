@@ -17,6 +17,13 @@ h1 {
 	padding-top: 10px;
 		font-family: 'Noto Serif', serif;
 }
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 35pt;
+	padding-top: 10px;
+		font-family: 'Noto Serif', serif;
+}
 
 h3 {
 	font-family: 'Noto Serif', serif;
