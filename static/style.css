@@ -20,7 +20,7 @@ h1 {
 h2 {
 	color: white;
 	text-align: center;
-	font-size: 35pt;
+	font-size: 20pt;
 	padding-top: 10px;
 		font-family: 'Noto Serif', serif;
 }
@@ -107,7 +107,9 @@ a:hover {
 	color: pink;
 	text-decoration: none;
 }
-
+.social {
+	padding: 10px;
+}
 
 @keyframes slidy {
 0% { left: 0%; }
