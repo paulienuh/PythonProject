@@ -99,12 +99,12 @@ border-radius: 25px;
 
 
 a {
-	color: white;
+	color: pink;
 	text-decoration: none;
 
 }
 a:hover {
-	color: pink;
+	background: white;
 	text-decoration: none;
 }
 .social {
