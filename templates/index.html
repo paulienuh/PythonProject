@@ -2,6 +2,9 @@
 
 <title>#shefcodefirst</title> 
 <meta charset=utf-8> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
 <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -25,26 +28,33 @@
 
 <div class="textbox" >
 <div class="pls" style="width: 75%; margin: 0 auto;" >
-Throughout the Code First Community course here at the University of Sheffield, everyone involved have been sharing their experiences through the #shefcodefirst on social media, in particular, Twitter. <br><br> Nicely showcasing the great things that can be created from learning how to code! </div></div>
+Throughout the Code First Community course here at the University of Sheffield, everyone involved have been sharing their experiences through the #shefcodefirst on social media, in particular, Twitter. <br><br>
+Nicely showcasing the great things that can be created from learning how to code! </div></div>
 
 
 
 <h1> #shefcodefirst memories:</h1>
 
-
-<div class="container" width="30%">
+<div class="container" >
+<div class="row" >
 {% for tweet in tweets %}
+<div class="col-lg-2 col-sm-2" >
 
-<p> {{ tweet.text }} </p>
-	{{ tweet.user.name }}  {{ tweet['time'] }}
+<img src=" {{ tweet.user.profile_image_url }} " class="img-rounded"> <br> <h3>{{ tweet.user.screen_name }}</h3> <br>
+</div>
+<div class="col-lg-9 col-sm-10" >
+<p>{{ tweet.text }}</p>
+</div>
 {% endfor %}
+</div>
+
 </div>
 <br>
 <div class="other-container" >
 
 <div class="textbox" >
 Our 8-weeks of coding adventures couldn't have been achieved without our talented instructors:<br><br>
-<center>Tejay White, Dave Chaston, Chris Bingham, Tania Allard, Darren Vong.</center>
+<center>Tejay White, Dave Chaston, Chris Bingham, Tania Allard, Darren Vong</center>
 <br><br>
 Want to tell everyone else how awesome they are? Nominate them as your <a href="https://codefirstgirls.typeform.com/to/zVjXUU" style=" border-bottom: 6px double #e2b9ba;">instructor of the month!</a>
 
@@ -84,11 +94,11 @@ Matt from <em>HackSheffield</em>, Anna from <em>Appt</em>, Tanja from <em>Leeds 
 
 
 <footer>
-Made by CF:G Ambassadors <a href="http://twitter.com/sophiakessler3">Sophia Kessler</a> & <a href="http://twitter.com/paulienuh/" >Pauline P. Narvas </a><br><small><em>(team pythonistas)</em></small><br>
-<a href="https://twitter.com/search?q=%23shefcodefirst&src=savshttps://www.facebook.com/search/top/?q=%23shefcodefirst"><i class="fa fa-twitter social" aria-hidden="true"></i></a> <a href="https://www.instagram.com/explore/tags/shefcodefirst/"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+Made by CF:G Ambassadors <a href="http://twitter.com/sophiakessler3">Sophia Kessler</a> & <a href="http://twitter.com/paulienuh/" >Pauline P. Narvas </a><br><small><em>(team pythonistas)</em></small><br><br>
+<a href="https://twitter.com/search?q=%23shefcodefirst&src=savshttps://www.facebook.com/search/top/?q=%23shefcodefirst"><i class="fa fa-twitter social fa-2x" aria-hidden="true"></i></a> <a href="https://www.instagram.com/explore/tags/shefcodefirst/"> <i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 <a href="https://www.linkedin.com/search/results/content/?keywords=%23shefcodefirst&origin=SWITCH_SEARCH_VERTICAL" >
-<i class="fa fa-linkedin" aria-hidden="true"></i></a>
-<a href="https://www.facebook.com/search/top/?q=%23shefcodefirst"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+<a href="https://www.facebook.com/search/top/?q=%23shefcodefirst"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
 
 <br>
 

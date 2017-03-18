@@ -20,11 +20,15 @@ h2 {
 	font-size: 20pt;
 	text-align: center;
 }
+h3 {
+	font-size: 14pt;
+}
 .container {
  width: 65%;
  margin: 0 auto;
 
 }
+
 .other-container {
 	 padding-bottom: 130px;
 	 padding-top: 20px;
@@ -59,28 +63,29 @@ padding-top: 20px;
 }
 
 p {
-	color: #c55254;
+	background-color: #c55254;
+padding: 50px;
+border-radius: 25px;
+	color: #fff;
 		font-size: 14pt;
 	text-align: left;
 	border-top: 1px solid #ebc9c9;
-	padding: 10px;
+	margin-bottom: 70px;
 }
-footer p {
-	font-size: 13pt;
-}
+
 
 footer {
 	text-align: center;
-
+font-size: 13pt;
  position: absolute;
     left: 0;
-        padding-top: 10px;
+        padding-top: 20px;
     bottom: 0;
     height: 20px;
     width: 100%;
     margin: 0 auto;
     overflow:hidden;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
     	background: #c55254;
 color: white;
 
