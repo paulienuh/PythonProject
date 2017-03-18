@@ -1,6 +1,7 @@
 body {
 	background-color: #fff;
-font-family: 'Noto Serif', serif;
+font-family: 'Roboto', sans-serif;
+
 font-weight: 100;
 }
 
@@ -19,6 +20,7 @@ h2 {
 	color: #c55254;
 	font-size: 18pt;
 	text-align: center;
+	font-family: 'Noto Serif', serif;
 }
 h3 {
 	font-size: 14pt;
